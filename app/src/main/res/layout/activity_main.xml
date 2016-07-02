@@ -8,7 +8,7 @@
     <View
         android:id="@+id/top_divider"
         android:layout_width="match_parent"
-        android:layout_height="10dp"
+        android:layout_height="1dp"
         android:background="@color/colorDivider"/>
 
     <ScrollView
@@ -48,20 +48,21 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <RadioButton android:id="@+id/q2_radio_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="OptionA"/>
+                    android:text="countw"/>
 
                 <RadioButton android:id="@+id/q2_radio_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="OptionB"/>
+                    android:text="wc"/>
 
                 <RadioButton android:id="@+id/q2_radio_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="OptionC"/>
+                    android:text="cw"/>
 
             </RadioGroup>
 
@@ -81,19 +82,19 @@
                     android:id="@+id/q3_checkbox_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="OptionA" />
+                    android:text="csh" />
 
                 <CheckBox
                     android:id="@+id/q3_checkbox_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="OptionB" />
+                    android:text="bash" />
 
                 <CheckBox
                     android:id="@+id/q3_checkbox_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="OptionC" />
+                    android:text="fish" />
 
             </LinearLayout>
 
@@ -103,6 +104,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question4"/>
+
+            <EditText android:id="@+id/answer4"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
 
             <TextView
                 android:id="@+id/question5"
@@ -150,7 +155,7 @@
                 android:id="@+id/submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Submit"
+                android:text="@string/check_answers"
                 android:layout_gravity="center_horizontal"
                 android:onClick="checkAnswers"/>
 

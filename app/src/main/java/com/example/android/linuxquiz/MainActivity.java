@@ -37,12 +37,16 @@ public class MainActivity extends AppCompatActivity {
         CheckBox q3_input_b = (CheckBox) findViewById(R.id.q3_checkbox_b);
         CheckBox q3_input_c = (CheckBox) findViewById(R.id.q3_checkbox_c);
 
-        if (!q3_input_a.isChecked() && q3_input_b.isChecked() && q3_input_c.isChecked()) {
+        if (q3_input_a.isChecked() && q3_input_b.isChecked() && q3_input_c.isChecked()) {
             correct_answers += 1;
         }
 
-        // Question 4
-        correct_answers += 1;
+        // Question 4 - Edit Text
+        String q4_answer = getString(R.string.answer4);
+        EditText q4_input = (EditText) findViewById(R.id.answer4);
+        if (q4_input.getText().toString().equals(q1_answer)) {
+            correct_answers += 1;
+        }
 
         // Question 5
         correct_answers += 1;

@@ -1,16 +1,35 @@
 <resources>
     <string name="app_name">Linux Quiz</string>
+
     <string name="question1">Who created the linux kernel? (First Name)</string>
     <string name="answer1">Linus</string>
-    <string name="question2">The answer is B</string>
-    <string name="answer2">B</string>
-    <string name="question3">The answer is B and C</string>
-    <string name="answer3">BC</string>
-    <string name="question4">Question 4</string>
+
+    <string name="question2">What command will count the words in a file?</string>
+    <string name="answer2">wc</string>
+
+    <string name="question3">Which of the following are linux shells?</string>
+    <string name="answer3">ABC</string>
+
+    <string name="question4">FreeBSD is a GNU/Linux distribution? true/false</string>
+    <string name="answer4">false</string>
+
     <string name="question5">Question 5</string>
+    <string name="answer5">Answer 5</string>
+
     <string name="question6">Question 6</string>
+    <string name="answer6">Answer 6</string>
+
     <string name="question7">Question 7</string>
+    <string name="answer7">Answer 7</string>
+
     <string name="question8">Question 8</string>
+    <string name="answer8">Answer 8</string>
+
     <string name="question9">Question 9</string>
+    <string name="answer9">Answer 9</string>
+
     <string name="question10">Question 10</string>
+    <string name="answer10">Answer 10</string>
+
+    <string name="check_answers">Check Answers</string>
 </resources>
