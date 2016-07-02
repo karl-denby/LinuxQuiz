@@ -2,8 +2,10 @@
     <string name="app_name">Linux Quiz</string>
     <string name="question1">Who created the linux kernel? (First Name)</string>
     <string name="answer1">Linus</string>
-    <string name="question2">Question 2</string>
-    <string name="question3">Question 3</string>
+    <string name="question2">The answer is B</string>
+    <string name="answer2">B</string>
+    <string name="question3">The answer is B and C</string>
+    <string name="answer3">BC</string>
     <string name="question4">Question 4</string>
     <string name="question5">Question 5</string>
     <string name="question6">Question 6</string>
