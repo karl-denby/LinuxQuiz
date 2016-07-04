@@ -44,30 +44,40 @@ public class MainActivity extends AppCompatActivity {
         // Question 4 - Edit Text
         String q4_answer = getString(R.string.answer4);
         EditText q4_input = (EditText) findViewById(R.id.answer4);
-        if (q4_input.getText().toString().equals(q1_answer)) {
+        if (q4_input.getText().toString().equals(q4_answer)) {
             correct_answers += 1;
         }
 
         // Question 5
-        correct_answers += 1;
+        CheckBox q5_input_a = (CheckBox) findViewById(R.id.q5_checkbox_a);
+        CheckBox q5_input_b = (CheckBox) findViewById(R.id.q5_checkbox_b);
+        CheckBox q5_input_c = (CheckBox) findViewById(R.id.q5_checkbox_c);
+
+        if (!q5_input_a.isChecked() && q5_input_b.isChecked() && q5_input_c.isChecked()) {
+            correct_answers += 1;
+        }
 
         // Question 6
-        correct_answers += 1;
+        String q6_answer = getString(R.string.answer6);
+        EditText q6_input = (EditText) findViewById(R.id.answer6);
+        if (q1_input.getText().toString().equals(q1_answer)) {
+            correct_answers += 1;
+        }
 
         // Question 7
-        correct_answers += 1;
+        //correct_answers += 1;
 
         // Question 8
-        correct_answers += 1;
+        //correct_answers += 1;
 
         // Question 9
-        correct_answers += 1;
+        //correct_answers += 1;
 
         // Question 10
-        correct_answers += 1;
+        //correct_answers += 1;
 
         // Output the results
-        Toast.makeText(this, "You scored " + correct_answers + "/10", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "You scored " + correct_answers + "/6", Toast.LENGTH_LONG).show();
     }
 
 }

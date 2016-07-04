@@ -9,15 +9,20 @@
 
     <string name="question3">Which of the following are linux shells?</string>
     <string name="answer3">ABC</string>
+    <string name="answer3a">countw</string>
+    <string name="answer3b">wc</string>
+    <string name="answer3c">cw</string>
 
     <string name="question4">FreeBSD is a GNU/Linux distribution? true/false</string>
     <string name="answer4">false</string>
 
-    <string name="question5">Which of the following are linux package managers</string>
-    <string name="answer5">not pkg, apt and yum</string>
+    <string name="question5">Which of the following are linux package managers?</string>
+    <string name="answer5a">pkg</string>
+    <string name="answer5b">apt</string>
+    <string name="answer5c">yum</string>
 
-    <string name="question6">Question 6</string>
-    <string name="answer6">Answer 6</string>
+    <string name="question6">Linux is available free of charge? true/false</string>
+    <string name="answer6">true</string>
 
     <string name="question7">Question 7</string>
     <string name="answer7">Answer 7</string>
