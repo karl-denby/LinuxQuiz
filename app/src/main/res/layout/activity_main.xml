@@ -36,7 +36,7 @@
             <EditText android:id="@+id/answer1"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:inputType="textCapCharacters"/>
+                android:inputType="textCapWords"/>
 
             <TextView
                 android:id="@+id/question2"
@@ -48,22 +48,22 @@
             <RadioGroup
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <RadioButton android:id="@+id/q2_radio_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="countw"/>
+                    android:text="@string/answer2a"/>
 
                 <RadioButton android:id="@+id/q2_radio_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="wc"/>
+                    android:text="@string/answer2b"/>
 
                 <RadioButton android:id="@+id/q2_radio_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="cw"/>
+                    android:text="@string/answer2c"/>
 
             </RadioGroup>
 
@@ -108,7 +108,8 @@
 
             <EditText android:id="@+id/answer4"
                 android:layout_height="wrap_content"
-                android:layout_width="match_parent" />
+                android:layout_width="match_parent"
+                android:inputType="textCapWords"/>
 
             <TextView
                 android:id="@+id/question5"
@@ -152,7 +153,7 @@
             <EditText android:id="@+id/answer6"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:inputType="textCapCharacters"/>
+                android:inputType="textCapWords"/>
 
             <!--
             <TextView

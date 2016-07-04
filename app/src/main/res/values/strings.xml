@@ -6,6 +6,9 @@
 
     <string name="question2">What command will count the words in a file?</string>
     <string name="answer2">wc</string>
+    <string name="answer2a">countw</string>
+    <string name="answer2b">wc</string>
+    <string name="answer2c">cw</string>
 
     <string name="question3">Which of the following are linux shells?</string>
     <string name="answer3">ABC</string>

@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         // Question 6
         String q6_answer = getString(R.string.answer6);
         EditText q6_input = (EditText) findViewById(R.id.answer6);
-        if (q1_input.getText().toString().equals(q1_answer)) {
+        if (q6_input.getText().toString().equals(q6_answer)) {
             correct_answers += 1;
         }
 
