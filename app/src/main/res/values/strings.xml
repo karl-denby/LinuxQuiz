@@ -13,8 +13,8 @@
     <string name="question4">FreeBSD is a GNU/Linux distribution? true/false</string>
     <string name="answer4">false</string>
 
-    <string name="question5">Question 5</string>
-    <string name="answer5">Answer 5</string>
+    <string name="question5">Which of the following are linux package managers</string>
+    <string name="answer5">not pkg, apt and yum</string>
 
     <string name="question6">Question 6</string>
     <string name="answer6">Answer 6</string>
