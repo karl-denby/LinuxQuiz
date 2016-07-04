@@ -12,9 +12,9 @@
 
     <string name="question3">Which of the following are linux shells?</string>
     <string name="answer3">ABC</string>
-    <string name="answer3a">countw</string>
-    <string name="answer3b">wc</string>
-    <string name="answer3c">cw</string>
+    <string name="answer3a">csh</string>
+    <string name="answer3b">bash</string>
+    <string name="answer3c">fish</string>
 
     <string name="question4">FreeBSD is a GNU/Linux distribution? true/false</string>
     <string name="answer4">false</string>

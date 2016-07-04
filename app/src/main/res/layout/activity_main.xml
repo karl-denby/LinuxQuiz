@@ -83,19 +83,19 @@
                     android:id="@+id/q3_checkbox_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="csh" />
+                    android:text="@string/answer3a" />
 
                 <CheckBox
                     android:id="@+id/q3_checkbox_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="bash" />
+                    android:text="@string/answer3b" />
 
                 <CheckBox
                     android:id="@+id/q3_checkbox_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="fish" />
+                    android:text="@string/answer3c" />
 
             </LinearLayout>
 
@@ -154,36 +154,6 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:inputType="textCapWords"/>
-
-            <!--
-            <TextView
-                android:id="@+id/question7"
-                style="@style/question_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question7"/>
-
-            <TextView
-                android:id="@+id/question8"
-                style="@style/question_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question8"/>
-
-            <TextView
-                android:id="@+id/question9"
-                style="@style/question_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question9"/>
-
-            <TextView
-                android:id="@+id/question10"
-                style="@style/question_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question10"/>
-            -->
 
             <Button
                 android:id="@+id/submit"

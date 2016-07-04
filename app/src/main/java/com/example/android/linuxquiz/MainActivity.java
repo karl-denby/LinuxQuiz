@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * Check if the questions are right
+     *
+     * @return 1 if correct 0 if not
+     */
     private int check_question1 () {
         // Question 1 - Edit Text
         String q1_answer = getString(R.string.answer1);
@@ -85,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Get results and display them as a TOAST.
+     */
     public void checkAnswers(View view) {
         int correct_answers = 0;
 
